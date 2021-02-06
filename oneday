@@ -1,0 +1,9 @@
+%matlab
+numbers = [1,2,7,11,15], target = 9;
+for i = 1:1:4
+    for j = i+1:1:4
+        if numbers(i)+numbers(j) == target %matlab中数组下标是从1开始的
+            a=[i,j]
+        end
+    end
+end
